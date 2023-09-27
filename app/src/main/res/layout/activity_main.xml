@@ -17,6 +17,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday"
@@ -42,7 +43,11 @@
         android:layout_height="wrap_content"
         android:text="To Abdul"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="671dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.922" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
